@@ -94,6 +94,22 @@ Notes:
 
 </details>
 
+<details>
+<summary>Chillax Glass Sakura (Rain iOS)</summary>
+
+This fork also includes a softer glass-style Rain variant built around the included Sakura Miku / My Melody wallpaper:
+
+- Theme manifest: [`rain/chillax-glass-sakura.json`](./rain/chillax-glass-sakura.json)
+- Wallpaper: [`Wallpapers/chillax-glass-sakura-miku-my-melody.jpg`](./Wallpapers/chillax-glass-sakura-miku-my-melody.jpg)
+
+Install URL after pushing:
+
+`https://raw.githubusercontent.com/Matthewcappelli/Chillax-forked-/main/rain/chillax-glass-sakura.json`
+
+This variant uses the `Rosiecord Plumpy` icon pack through Rain's supported Themes+ icon-pack system because its rounded/cute style fits the sakura theme well.
+
+</details>
+
 **Disclaimer:** _We do not hold any responsibility for the aforementioned [client mods/wrapper](#Installation).
 Please use them based on your own judgement._
 

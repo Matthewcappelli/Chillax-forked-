@@ -70,6 +70,30 @@ This way you will have the full control over `update/patch` and there will be **
 
 </details>
 
+<details>
+<summary>Raincord iOS</summary>
+
+Rain does not load BetterDiscord/Vencord CSS themes directly on iOS. Instead, it installs a JSON color manifest that maps onto Discord's mobile/native theme tokens.
+
+This fork now includes a Rain-compatible port at [`rain/manifest.json`](./rain/manifest.json).
+
+To use it in Rain on iOS:
+
+1. Push this fork so the new `rain/manifest.json` file is available on GitHub.
+2. Copy this raw URL:
+   `https://raw.githubusercontent.com/Matthewcappelli/Chillax-forked-/main/rain/manifest.json`
+3. In Rain, open **Settings > Themes**.
+4. Tap **Install from URL**.
+5. Paste the raw URL and install the theme.
+
+Notes:
+
+- This Rain port keeps Chillax's colors, contrast, and wallpaper direction.
+- Desktop-only CSS layout tweaks from the original theme do **not** carry over to Rain, because Rain's iOS theming system is native-token based rather than custom-CSS based.
+- Addons such as `FriendGrid`, `SettingsModalEdited`, `WindowsButtons`, and similar desktop selectors are intentionally not part of the iOS port.
+
+</details>
+
 **Disclaimer:** _We do not hold any responsibility for the aforementioned [client mods/wrapper](#Installation).
 Please use them based on your own judgement._
 

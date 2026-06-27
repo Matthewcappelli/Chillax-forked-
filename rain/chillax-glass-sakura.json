@@ -45,6 +45,7 @@
     "BACKGROUND_MOBILE_PRIMARY": ["#1a17224d", "#f6edf3e0"],
     "BACKGROUND_MOBILE_SECONDARY": ["#211b2b66", "#f7eef5dd"],
     "BACKGROUND_NESTED_FLOATING": ["#251d317d", "#fcf4f8eb"],
+    "KEYBOARD": ["#2d2239", "#f3e4ec"],
     "BACKGROUND_MESSAGE_HOVER": ["#ffffff14", "#f8e6f080"],
     "BACKGROUND_MODIFIER_HOVER": ["#ffc7e033", "#f2d6e499"],
     "BACKGROUND_MODIFIER_ACTIVE": ["#ffa0c552", "#f7c4d799"],
